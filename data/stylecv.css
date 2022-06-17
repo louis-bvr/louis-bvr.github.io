@@ -32,13 +32,19 @@ a{
 .coo{
     padding: 5px;
     margin-left: 3%;
-    background-color: rgba(155, 155, 155, 0.2);
+    background-color: rgb(73, 78, 95);
     height: 30%;
     width: 400px;
+    color: white;
 }
 
+.cootitre{
+    padding: 7px;
+    width: 400px;
+    margin-left: -5px;
+    background-color: rgb(136, 136, 136);
+}
 .cv{
-    margin-top: -180px;
     padding: 10px;
     margin-left: 30px;
     height: auto;
@@ -47,12 +53,11 @@ a{
 
 .barre{
     margin-left: 30px;
-    margin-top: -180px;
     border: 1px black solid;
     border-right-style: none;
     border-top-style: none;
     border-bottom-style: none;
-    border-left-color: rgb(155, 155, 155);
+    border-left-color: rgb(136, 136, 136);
     border-left-width: 10px;
 }
 
@@ -61,6 +66,6 @@ h2{
     border-right-style: none;
     border-left-style: none;
     border-top-style: none;
-    border-bottom-color: rgb(155, 155, 155);
+    border-bottom-color: rgb(136, 136, 136);
     border-bottom-width: 5px;
 }
