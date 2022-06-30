@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.4;
+}
+
+.tab{ 
+    text-indent: 4%; 
+}
+
+.article{
+    margin-top: 10px;
+    margin-left: 80px;
+    margin-right: 20px;
+}
+
+.figcap{
+    font-weight: bold;
+}
+
+.img_1{
+    max-width: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img_2{
+    max-width: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img_3{
+    max-width: 800px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img_4{
+    max-width: 800px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

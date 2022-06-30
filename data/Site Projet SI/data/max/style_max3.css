@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.4;
+}
+
+.article{
+    margin-top: 50px;
+    margin-left: 70px;
+    margin-right: 20px;
+}
+
+.figcap{
+    font-weight: bold;
+}
+
+.img_2{
+    max-height: 247px;
+}
+
+.fig_2{
+    margin-left: 520px;
+    margin-top: -277px;
+}
+
+.img_4{
+    max-height: 459px;
+}
+
+.img_5{
+    max-height: 459px;
+}

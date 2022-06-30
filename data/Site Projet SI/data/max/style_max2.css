@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.4;
+}
+
+.article{
+    margin-top: 50px;
+    margin-left: 70px;
+    margin-right: 20px;
+}
+
+.img_1{
+    max-width: 19%;
+}
+
+.img_2{
+    max-width: 19%;
+}
+
+.img_3{
+    max-width: 19%;
+}
+
+.img_4{
+    max-width: 19%;
+}
+
+.img_5{
+    max-width: 19%;
+}

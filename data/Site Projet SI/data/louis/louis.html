@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link href="" rel="icon" type="image/jpg">
+    <title>Projet SI - Louis </title>
+    <link href="" rel="stylesheet" type="text/css" />
+    <link href="../menu.css" rel="stylesheet" type="text/css" />
+    <link href="style_louis.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <header class="menu-wrap">
+      <input type="checkbox" class="toggler">
+      <div class="hamburger"><div></div></div>
+      <div class="menu">
+        <div>
+          <div>
+            <ul>
+              <li><a href="../../Accueil.html"> Accueil </a></li>
+              <li><a href="../Projet/projet.html"> 1. Présentation du projet </a></li>              
+              <li><a href="../ludo/ludo.html"> 2. Mathématiques - Ludovic </a></li>              
+              <li><a href="../max/max.html"> 3. Simulation - Maxence </a></li>
+              <li><a href="#"> 4. Logiciel - Louis </a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="article">
+      <ol type="I">
+        <h2><li>La route / Le Capteur de position</li></h2>
+          <ol type="1">
+            <h3><li> Matlab </li></h3> 
+      </br>
+            <p class="tab">
+              J’ai commencé par Matlab pour essayer de voir comment la route pouvais être alimenter et quelle 
+              était la meilleure solution pour alimenter la voiture.
+      <br></br>
+              Finalement on s’est fixé sur cette façon : 
+              <ul>
+                Détecter où se trouve la voiture sur la route et activer trois plaques : dessous, avant et 
+                après pour des économies d’énergie (éviter de tout alimenter en même temps) et avoir une 
+                optimisation de la recharge
+              </ul>
+            </p>
+      </br>
+            <a class="txt1" href="img/Schéma Matlab.png" target="about_blank"><img class="img_1" src="img/Schéma Matlab.png" title="Cliquez pour agrandir"></a>
+
+      <br></br>
+
+            <h3><li> Position par ultrason </li></h3>
+      </br>     
+            <p class="tab">
+              Pour savoir où se trouve la voiture, j’ai pensé qu’on pourrait utilis le système d’ultrasons, 
+              qui est de plus en plus commun dans les voitures (radar de recul, régulateur adaptatifs) 
+            </p>
+      </br> 
+            <p class="tab">
+              Malheureusement, en étudiant et en faisant des essais, je me suis rendu compte que se n’était pas 
+              assez précis et trop compliqué à mettre en place.
+            </p>
+      </br>
+
+            <h3><li> Position par lumière </li></h3>
+      </br>      
+            <p>
+              J’ai donc opté pour une méthode plus simple et plus efficace : la lumière 
+              (ou dans notre cas, un semblant de laser).
+            </p>
+      </br>
+            <p class="tab">
+              La détection de position se ferrais lorsque le faisceau laser se coupe : dans notre cas, 
+              quand le capteur photosensible obtiendrait une lumière trop faible de la diode. Alors celui 
+              activerait les plaques sous, avant et après, qui serais associer au capteur photosensible 
+            </p>
+      </br>
+            <figure>
+              <figcaption class="figcap"> Modèle de montage pour la détection de position par lumières</figcaption>
+              <img class="img_3" src="img/Montage Capteur Photo.png">
+            </figure>
+      </br></br>
+            <h3><li> Application mobile </li></h3> 
+      </br>      
+            <p class="tab">
+              J’ai ensuite fait une application Android pour m’en servir de moniteur de série et montrer au 
+              jury que ça fonctionne (avec le retour des « logs » en connections Bluetooth entre le téléphone et 
+              la carte)
+            </p>
+      </br>
+            <figure>
+              <figcaption class="figcap"> L'application mobile : Cliquez pour plus de détails </figcaption>
+              <a href="img/Application.png">
+                <img class="img_2" src="img/Appli.png">
+              </a>
+            </figure>
+      </br>
+            <h3><li> Finalement </li></h3>
+      </br>       
+            <p class="tab">
+              Finalement toute cette partie n’a servi à rien puisqu’après essaie des plaques, on s’est rendu compte 
+              que même alimenter, les plaques émettrices ne consomme pas, tant que la plaque réceptrice n’est pas 
+              en contact avec.
+            </p>
+
+          </ol>
+      </br></br>
+        <h2><li> La voiture / Le multimètre </li></h2>
+        <p>
+          Le but était de savoir combien la voiture recevait et consommait pour nous permettre de savoir si la 
+          recharge était rentable.
+        </p>
+      </br>
+        <figure>
+          <figcaption class="figcap"> Modèle de montage du multimètre fonctionnel à 2 ou 3 erreurs dans le code </figcaption>
+          <img class="img_3" src="img/multimeter.png">
+        </figure>
+      </ol>
+      <p>
+        Après quels essais, malheureusement non enregistrés, nous avons réussi à faire tourner les roues dans le vide 
+        avec juste la puissance de deux plaques et atteindre la vitesse d’environ 30 km/h (ce qui signifie que l’énergie 
+        des plaques suffit pour faire avancer la voiture jusqu’à environ 30 km/h).
+      </p>
+    </br>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link href="" rel="icon" type="image/jpg">
+    <title>Projet SI - Maxence </title>
+    <link href="" rel="stylesheet" type="text/css" />
+    <link href="../menu.css" rel="stylesheet" type="text/css" />
+    <link href="style_max.css" rel="stylesheet" type="text/css" />
+    <link href="navig.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <header id="nav">
+      <ul>        
+        <li id="fonctionne"><a href="#" id="couleur"><b> 1. Fonctionnement </b></a>
+          <ul id="menuderoule" >
+            <li><a> Fonctionnement électrique </a></li>
+          </ul>
+        </li>
+        
+        <li id="modele"><a href="max2.html" id="couleur"><b> 2. Modélisation </b></a>
+          <ul id="menuderoule">
+            <li><a> Modélisation des pièces : Induction & Voiture </a></li>
+          </ul>
+        </li>
+
+        <li id="crea"><a href="max3.html" id="couleur"><b> 3. Création </b></a>
+          <ul id="menuderoule">
+            <li><a> Imprimanterie 3D </a></li>
+          </ul>
+        </li>
+      </ul>
+    </header>
+
+    <div class="menu-wrap">
+      <input type="checkbox" class="toggler">
+      <div class="hamburger"><div></div></div>
+      <div class="menu">
+        <div>
+          <div>
+            <ul>
+              <li><a href="../../Accueil.html"> Accueil </a></li>
+              <li><a href="../Projet/projet.html"> 1. Présentation du projet </a></li>
+              <li><a href="../ludo/ludo.html"> 2. Mathématiques - Ludovic </a></li>              
+              <li><a href="#"> 3. Simulation - Maxence </a></li>
+              <li><a href="../louis/louis.html"> 4. Logiciel - Louis </a></li>              
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="article">
+      <h1> 1. Fonctionnement éléctrique des plaques réceptrice et réceptrice à induction</h1>
+    </br></br> 
+      <figure>
+        <p class="txt_1">
+          Le but de l’induction est donc de charger quelque chose sans le toucher. Pour se
+          faire, nous devons émettre un courant alternatif qui sera reçu par un récepteur afin
+          d’être transmis en courant continu.
+          Cependant, le courant dans nos prises courantes est continue, c’est donc pour cela
+          que la plaque émettrice doit le convertir en alternatif
+        </p></br>
+        <img class="img_1_1" src="img/elec/1 elec fonctionnement emetteur.png">
+        <figcaption class="figcap1">Schéma électrique de la plaque émettrice</figcaption>
+      </figure>
+      
+    </br></br> 
+
+      <figure>
+        <figcaption> Un courant alternatif : </figcaption>
+        <img class="img_2" src="img/elec/alter.png">        
+      </figure>
+    
+      <figure class="img_3">
+        <figcaption> Tandis qu’un courant continu ressemble à :</figcaption>
+        <img class="img_3_1" src="img/elec/continu.png">        
+      </figure>
+    
+    </br></br> 
+
+    <figure>
+      <p class="txt4">
+        C’est pour cela que nous trouvons plusieurs diodes Zener dans la plaque émettrice.
+        Celle-ci va donc devoir convertir un courant continu en alternatif.</br></br>
+        De plus les capaciteurs vont permettent une réduction du courant afin d’éviter la
+        surchauffe de l’inductance.</br>
+        Dans les expériences effectuées, nous avons pu utiliser du 12V dans nos plaques
+        émettrices grâce à ces capaciteurs.
+      </p>
+      <img class="img_4" src="img/elec/zener diode.png">
+      <figcaption class="figcap4">Un diode Zener</figcaption>
+    </figure>
+  </br></br>
+    <figure>
+      <p class="txt5">
+        Maintenant, parlons de la plaque réceptrice. Celle-ci, qui reçoit de l’alternatif
+        va devoir le convertir en continu afin de faire un chargeur normal.</br>
+        C’est pour cela que nous trouvons un alternateur</br></br>
+        Nous pouvons remarquer que l’alternateur est directement branché sur la charge
+        étant donné que celui-ci envoi théoriquement 12 Vcc.
+      </p>
+      <img class="img_5" src="img/elec/4 elec Fonctionnement récepteur.png">
+      <figcaption class="figcap5"> Schéma électrique de la plaque réceptrice </figcaption>   
+    </figure>
+
+    </br>
+    </div>
+  </body>
+</html>
