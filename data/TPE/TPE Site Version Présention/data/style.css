@@ -1,0 +1,247 @@
+/* debut parti nav*/
+#body{
+	font-family: 'Raleway', sans-serif;
+	margin: 0px;
+	padding: 0px;
+}
+
+#nav{
+	font-size: 22px;
+	width: 100%;
+	height: 80px;
+	background-image: linear-gradient(to left, #99d9ea, #186578);
+	position: relative;
+}
+
+/*suppression soulignage lien*/
+a{
+	text-decoration: none;
+	color: black;
+}
+
+/* suppression des marges à gauches */
+header > ul{
+	margin: 0px;
+	padding: 0px;
+}
+
+/* affichage des catégories cote à cote */
+header  > ul > li{
+	float: left;
+	position: relative;
+}
+
+/*supression des puces de liste*/
+header  li {
+	list-style-type: none;
+}
+
+/*sous catégories caché */
+#menuderoule{
+	display: none;
+}
+
+/* ? */
+header  > ul::after{
+	content :"";
+	display: block;
+	clear: both;
+}
+
+/* ?*/ 
+header  a{
+	display: inline-block;
+	text-decoration : none;
+}
+
+/* position et espacements des catégories */
+header  > ul > li > a{
+	padding: 27px 15px;
+	color: #000000;
+}
+
+/* apparition des sous catégories lorsque la souris est passer sur la catégories */
+header  li:hover #menuderoule{
+	display: inline-block;
+	position: absolute;
+	top: 100%;
+	left: 0%;
+	padding: 0px;
+	z-index: 100000;
+}
+
+/* trait entre chaque sous catégories */
+#menuderoule li{
+	border-bottom: 1px solid #CCC
+}
+
+/* position et taille de la sous-catégories sources */
+#sources #menuderoule li a{
+	padding: 12.5px 20px;
+	font-size: 15px;
+	color: black;
+	width: 250px;
+}
+
+/* position et taille de la sous-catégories nous */
+#nous #menuderoule li a{
+	padding: 12.5px 20px;
+	font-size: 16px;
+	color: black;
+	width: 250px;
+}
+
+#accueil #menuderoule li a{
+	padding: 12.5px 20px;
+	font-size: 16px;
+	color: black;
+	width: 400px;
+}
+
+#nous #menuderoule{
+	background-color: RGBa(70, 160, 160);
+}
+
+#sources #menuderoule{
+	background-color: RGBa(70, 160, 160);
+}
+
+#accueil #menuderoule{
+	background-color: RGBa(70, 160, 160);
+}
+
+#menuderoule li:hover a{
+	color: #CCC;
+	font-weight: bold;
+}
+
+#nous #menuderoule li:hover{
+	background-color: RGBa(80, 182, 182);
+}
+
+#sources #menuderoule li:hover{
+	background-color: RGBa(80, 182, 182);
+}
+
+#accueil #menuderoule li:hover{
+	background-color: RGBa(80, 182, 182);
+}
+
+/*couleur parti*/
+#couleur{
+	color: white;
+}
+
+#couleur:hover{
+	color: #4f4f4f;
+}
+
+/*fin parti navigation*/
+
+#a_tpe{
+    position: absolute;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+    top: 15%;
+    left: 3%;
+    transition: box-shadow 0.3s;
+    width: 29%;
+}
+
+#a_tpe:hover{
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.5);
+}
+
+#img{
+    width: 100%;
+}
+
+#e_1{
+    position: absolute;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+    top: 15%;
+    left: 50%;
+    transform: translateX(-50%); 
+    transition: box-shadow 0.3s;
+    width: 29%;
+}
+
+#e_1:hover{
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.5);
+}
+
+#e_2{
+    position: absolute;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+    top: 15%;
+    left: 68%;
+    transition: box-shadow 0.3s;
+    width: 29%;
+}
+
+#e_2:hover{
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.5);
+}
+
+#e_3{
+    position: absolute;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+    top: 80%;
+    left: 3%;
+    transition: box-shadow 0.3s;
+    width: 29%;
+}
+
+#e_3:hover{
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.5);
+}
+
+#e_4{
+    position: absolute;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+    top: 75%;
+	left: 50%;
+	transform: translateX(-50%); 
+    transition: box-shadow 0.3s;
+    width: 29%;
+}
+
+#e_4:hover{
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.5);
+}
+
+#e_5{
+    position: absolute;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+    top: 98%;
+    left: 68%;
+    transition: box-shadow 0.3s;
+    width: 29%;
+}
+
+#e_5:hover{
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.5);
+}
+
+#e_6{
+    position: absolute;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+    top: 135%;
+	left: 50%;
+	transform: translateX(-50%); 
+    transition: box-shadow 0.3s;
+    width: 29%;
+}
+
+#e_6:hover{
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.5);
+}
+
+#titre{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#suppr{
+	color : red;
+	font-weight: bold;
+}

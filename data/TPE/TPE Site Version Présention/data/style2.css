@@ -1,0 +1,356 @@
+/* debut parti nav*/
+#body{
+	font-family: 'Raleway', sans-serif;
+	margin: 0px;
+	padding: 0px;
+}
+
+#nav{
+	font-size: 22px;
+	width: 100%;
+	height: 80px;
+	background-image: linear-gradient(to left, #99d9ea, #186578);
+}
+
+#placenav{
+	position: float;
+	margin-left: 12.2%;
+}
+
+/*suppression soulignage lien*/
+a{
+	text-decoration: none
+}
+
+/* suppression des marges à gauches */
+header > ul{
+	margin: 0px;
+	padding: 0px;
+}
+
+/* affichage des catégories cote à cote */
+header  > ul > li{
+	float: left;
+	position: relative;
+}
+
+/*supression des puces de liste*/
+header  li {
+	list-style-type: none;
+}
+
+/*sous catégories caché */
+#menuderoule{
+	display: none;
+}
+
+/* ? */
+header  > ul::after{
+	content :"";
+	display: block;
+	clear: both;
+}
+
+/* ?*/ 
+header  a{
+	display: inline-block;
+	text-decoration : none;
+}
+
+/* position et espacements des catégories */
+header  > ul > li > a{
+	padding: 27px 15px;
+	color: #000000;
+}
+
+/* apparition des sous catégories lorsque la souris est passer sur la catégories */
+header  li:hover #menuderoule{
+	display: inline-block;
+	position: absolute;
+	top: 100%;
+	left: 0%;
+	padding: 0px;
+	z-index: 100;
+}
+
+/* trait entre chaque sous catégories */
+#menuderoule li{
+	border-bottom: 1px solid #CCC
+}
+
+/* position et taille de la sous-catégories sources */
+#sources #menuderoule li a{
+	padding: 12.5px 20px;
+	font-size: 15px;
+	color: black;
+	width: 350px;
+}
+
+/* position et taille de la sous-catégories nous */
+#nous #menuderoule li a{
+	padding: 12.5px 20px;
+	font-size: 16px;
+	color: black;
+	width: 250px;
+}
+
+#plan #menuderoule li a{
+	padding: 12.5px 20px;
+	font-size: 16px;
+	color: black;
+	width: 240px;
+}
+
+#nous #menuderoule{
+	background-color: RGBa(70, 160, 160);
+}
+
+#sources #menuderoule{
+	background-color: RGBa(70, 160, 160);
+}
+
+#plan #menuderoule{
+	background-color: RGBa(70, 160, 160);
+}
+
+#menuderoule li:hover a{
+	color: #CCC;
+	font-weight: bold;
+}
+
+#nous #menuderoule li:hover{
+	background-color: RGBa(80, 182, 182);
+}
+
+#plan #menuderoule li:hover{
+	background-color: RGBa(80, 182, 182);
+}
+
+#sources #menuderoule li:hover{
+	background-color: RGBa(80, 182, 182);
+}
+
+/*couleur parti*/
+#couleur{
+	color: white;
+}
+
+#couleur:hover{
+	color: #4f4f4f;
+}
+
+#Ia{
+	text-indent: 8.5%;
+}
+
+#Ib{
+	text-indent: 8.5%;
+}
+
+#IIa{
+	text-indent: 8.5%;
+}
+
+#IIb{
+	text-indent: 8.5%;
+}
+
+/*fin parti navigation*/
+
+#to_top{
+	position: fixed;
+	margin-left: -12.5%;
+	margin-top: 36%;
+}
+
+#plana1{
+	color: black;
+}
+
+#plana2{
+	color: black;
+}
+
+#planb1{
+	color: black;
+}
+
+#planb2{
+	color: black;
+}
+
+
+#article{
+	margin-left: 8%;
+	margin-right: 4%;
+	font-size: 20px;
+	z-index: 1;
+}
+
+#intro_1{
+	text-indent: 4%;
+}
+
+#intro_3{
+	color: black;
+}
+
+
+#a1_2{
+	text-indent: 4%;
+	margin-right: 22%;
+}
+
+#a1_3{
+	margin-top: -1.5%;
+}
+
+#a1_7{
+	margin-right: 32%;
+	margin-top: -15%
+}
+
+#li1a1{
+	margin-left: 42%;
+	margin-top: -20%;
+}
+
+#li2a1{
+	margin-left: 42%;
+}
+
+#b1_3{
+	margin-top: -18%;
+}
+
+#b1_4{
+	margin-left: 35%;
+	margin-top: -24%
+}
+
+#b1_5{
+	margin-left: 35%;
+}
+
+#b1_6{
+	margin-right: 50%;
+	margin-top: -26%;
+}
+
+#li1b1{
+	margin-right: 21%;
+}
+
+#li2b1{
+	margin-right: 21%;
+}
+
+#li3b1{
+	margin-right: 21%;
+}
+
+#lien{
+	color: black;
+}
+
+#Iaimg1{
+	margin-left: 78%;
+	margin-top: -20%;	
+	width: 231px;
+	height: 228px;
+}
+
+#Iaimg2{
+	width: 486px;
+	height: 256px;
+}
+
+#Iaimg3{
+	margin-left: 70%;
+}
+
+#gif4_1{
+	margin-left: 80%;
+	margin-top: 2%;
+}
+
+#gif4_2{
+	width: 400px;
+	height: 274px;
+}
+
+#gif2{
+	width: 545px;
+	height: 227px;	
+}
+
+#Ibimg1{
+	width: 640px;
+	height: 362px;
+	margin-left: 50%;	
+}
+
+#bac{
+	width: 800px;
+	height: 680px;
+}
+
+#foncserv{
+	width: 700px;
+	height: 380px;
+}
+
+#fp{
+	margin-left: 60%;
+	margin-top: -30%;
+}
+
+#fp1{
+	color: red;
+	margin-left: 60%;
+}
+
+#fp2{
+	color: blue;
+	margin-left: 60%;
+}
+
+#fp3{
+	color: #1c9dc5;
+	margin-left: 60%;
+}
+
+#fs{
+	margin-top: 10%;
+}
+
+#fs1{
+	color: #703f21;
+}
+
+#fs2{
+	color: #623286;
+}
+
+#fs3{
+	color: #d27d46;
+}
+
+#fs4{
+	color: #364c28;
+}
+
+#IIbimg1{
+	margin-left: 55%;
+	width: 488px;
+	height: 290px;
+}
+
+#b2_5{
+	margin-right: 45%;
+	margin-top: -22%;
+}
+
+#b2_6{
+	margin-top: 5%;
+}

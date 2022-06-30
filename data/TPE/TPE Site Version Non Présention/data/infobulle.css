@@ -1,0 +1,130 @@
+#ibimg1 {
+  text-decoration: none;
+  position: relative;
+  z-index: 1000000;
+} 
+ 
+#ibimg1 span {
+  display: none;
+  border-radius: 6px;
+  color:black;
+  background:white;
+}
+ 
+
+#ibimg1 span img {
+ width: 528px;
+ height: 127px;
+}
+
+ 
+#ibimg1:hover span {
+  display: block;
+  position: absolute;
+  top: -170px;
+  left: 0px;
+  width: auto;
+  max-width: auto ;
+  min-height: auto ; 
+  border: 1px solid black;
+  padding: 6px;
+  text-align: center;
+}
+
+#ibimg3 {
+  text-decoration: none;
+  position: relative;
+  z-index: 1000000;
+} 
+
+#ibimg3 span {
+  display: none;
+  border-radius: 6px;
+  color:black;
+  background:white;
+} 
+
+#ibimg3 span img {
+  width: 388px;
+  height: 179px;
+  margin-left: -25px;
+}
+ 
+#ibimg3:hover span {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 400px;
+  max-width: auto;
+  min-height: auto; 
+  border: 1px solid black;
+  margin-top: -225px;
+  margin-left: 0px;
+  padding: 6px;
+  text-align: center;
+}
+
+#ibimg4 {
+  text-decoration: none;
+  position: relative;
+  z-index: 1000000;
+} 
+
+#ibimg4 span {
+  display: none;
+  border-radius: 6px;
+  color:black;
+  background:white;
+} 
+ 
+/*
+#ibimg4 span img {
+}
+*/ 
+ 
+#ibimg4:hover span {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: auto;
+  max-width: auto;
+  min-height: auto; 
+  border: 1px solid black;
+  margin-top: -252px;
+  padding: 6px;
+  text-align: center;
+}
+
+#ibimg5 {
+  text-decoration: none;
+  position: relative;
+  z-index: 1000000;
+} 
+
+#ibimg5 span {
+  display: none;
+  border-radius: 6px;
+  color:black;
+  background:white;
+} 
+
+#ibimg5 span img {
+  width: 236px;
+  height: 238px;
+}
+ 
+#ibimg5:hover span {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: auto;
+  max-width: auto;
+  min-height: auto; 
+  border: 1px solid black;
+  margin-top: -302px;
+  padding: 6px;
+  text-align: center;
+}

@@ -1,0 +1,119 @@
+/* debut parti nav*/
+#body{
+	font-family: 'Raleway', sans-serif;
+	margin: 0px;
+	padding: 0px;
+}
+
+#nav{
+	font-size: 22px;
+	width: 100%;
+	height: 80px;
+	background-image: linear-gradient(to left, #99d9ea, #186578);
+	position: relative;
+}
+
+#placenav{
+	position: float;
+	margin-left: 12.2%;
+}
+
+/*suppression soulignage lien*/
+a{
+	text-decoration: none
+}
+
+/* suppression des marges à gauches */
+header > ul{
+	margin: 0px;
+	padding: 0px;
+}
+
+/* affichage des catégories cote à cote */
+header  > ul > li{
+	float: left;
+	position: relative;
+}
+
+/*supression des puces de liste*/
+header  li {
+	list-style-type: none;
+}
+
+/*sous catégories caché */
+#menuderoule{
+	display: none;
+}
+
+/* ? */
+header  > ul::after{
+	content :"";
+	display: block;
+	clear: both;
+}
+
+/* ?*/ 
+header  a{
+	display: inline-block;
+	text-decoration : none;
+}
+
+/* position et espacements des catégories */
+header  > ul > li > a{
+	padding: 27px 15px;
+	color: #000000;
+}
+
+/* apparition des sous catégories lorsque la souris est passer sur la catégories */
+header  li:hover #menuderoule{
+	display: inline-block;
+	position: absolute;
+	top: 100%;
+	left: 0%;
+	padding: 0px;
+	z-index: 100000;
+}
+
+/* trait entre chaque sous catégories */
+#menuderoule li{
+	border-bottom: 1px solid #CCC
+}
+
+#retour #menuderoule li a{
+	padding: 12.5px 20px;
+	font-size: 15px;
+	color: black;
+	width: 250px;
+}
+
+#retour #menuderoule{
+	background-color: RGBa(70, 160, 160);
+}
+
+#menuderoule li:hover a{
+	color: #CCC;
+	font-weight: bold;
+}
+
+#retour #menuderoule li:hover{
+	background-color: RGBa(80, 182, 182);
+}
+
+#couleur{
+	color: white;
+}
+
+#couleur:hover{
+	color: #4f4f4f;
+}
+
+/*fin parti navigation*/
+
+#lien{
+    color: black;
+}
+
+#suppr{
+	color: red; 
+	font-weight: bold;
+}
