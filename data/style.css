@@ -84,11 +84,13 @@ a{
 #titre{
     font-size: 30px;
     font-weight: bold;
+    margin-left: 15px;
 }
 
 #soustitre{
     font-size: 17.5px;
     text-decoration: underline;
+    padding : 7px;
 }
 
 #sous_descr{
